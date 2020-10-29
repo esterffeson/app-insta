@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: border-box;
+}
+
+body{
+    background: #fafafa;
+    font: 14px Arial, Helvetica, san-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
