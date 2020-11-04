@@ -11,7 +11,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 //AQUI É FEITO A CONEXÃO COM O BANCO DE DADOS
-mongoose.connect('mongodb+srv://semana:semana@cluster0-eu6uo.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('endereço do seu banco de dados',{
         useNewUrlParser: true,
 });
 
